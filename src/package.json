@@ -1,0 +1,19 @@
+{
+  "name": "rick-and-morty",
+  "version": "1.0.0",
+  "description": "vamos a consumir una api llamada The Rick and Morty API en lo cual trabajaremos con javaScript pero sobre todo con asincronismo",
+  "main": "app.js",
+  "scripts": {
+    "callback": "node src/callback/app.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise" : "node src/promise/app.js",
+    "promise:challenge" : "node src/promise/challenge.js",
+    "async": "node src/async/app.js",
+    "async:challenge": "node src/async/challenge.js"
+  },
+  "author": "sanbega",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
